@@ -1,6 +1,8 @@
-window.onload = function loaded() {
-    let foo = 1;
-    let bar = 2;
-    let foobar = foo + bar;
-    console.log("Loaded main.js: foo + bar = " + foobar);
+window.onload = loaded;
+
+/**
+ * Simple Function that will be run when the browser is finished loading.
+ */
+function loaded() {
+    console.log('hello!');
 }
