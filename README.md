@@ -69,11 +69,21 @@ the refresh button 😊!
 We are going to make a few small modifications to the starter code and then make sure we can use
 the built in debugger for VSCode! Generally speaking it doesn't make much sense to single step
 through your HTML or CSS code, but any Javascript code can be debugged just like any other
-programming language. Click on the debug icon in VSCode and then click the big green arrow that
-says "Launch Chrome against localhost" to start a debugging session. You can then set a break
-point somewhere in the file **js/main.js** and single step through your code!
+programming language. 
+
+- Step 1: Run your development server with `npm start`
+- Step 2: Open the file **js/main.js**
+- Step 3: Open the built-in [debugger](https://code.visualstudio.com/docs/editor/debugging)
+- Step 4: Click on the debug icon in VSCode and then click the big green arrow that says "Launch
+  Chrome against localhost" to start a debugging session. 
+- Step 5: Modify the loaded function as shown below.
+- Step 6: Set a breakpoint on the variable foo and refresh.
+- Step 7: Step through the code to see the changes
 
 ```javascript
+/**
+ * Example function to test our debugger
+ */
 function loaded() {
     let foo = 1;
     let bar = 2;
@@ -85,7 +95,6 @@ function loaded() {
 You can also use the built in Chrome debugger to debug your in Browser Javascript. However, it is
 much easier to keep everything in VSCode instead of bouncing back and forth between your text editor
 and browser. 
-
 
 ## Task 3 - Linting
 
@@ -103,11 +112,12 @@ required to document all your code just like you were in CS121 and CS221. For th
 in this class JSDoc is almost identical to JavaDoc. Read the short [getting started
 guide](https://jsdoc.app/about-getting-started.html) for all the details in using JSDoc.
 
-## Task 5 - Running and Debugging Grading Scripts
+## Task 5 - Running Grading Scripts
 
 For each lab you will be given a set of grading scripts that you should run. These scripts are
 [QUnit](https://qunitjs.com/intro/#in-the-browser) tests that are run in the browser. All you have
-to do is uncomment them and they will run automatically!
+to do is uncomment them and they will run automatically! You can debug your unit tests just like
+any other Javascript program as shown in Task 2.
 
 ```html
 <!doctype html>
