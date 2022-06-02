@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": ".",
+		}
+	],
+	"settings": {
+		"cSpell.words": [
+			"dbaeumer",
+			"htmlhint",
+			"mkaufman",
+			"qunit"
+		],
+		"eslint.format.enable": true,
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		}
+	},
+	"launch": {
+		"configurations": [
+			{
+				"type": "pwa-chrome",
+				"name": "Debug Website",
+				"request": "launch",
+				"url": "http://127.0.0.1:3000/"
+			}
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"dbaeumer.vscode-eslint",
+			"ms-vscode.live-server",
+			"streetsidesoftware.code-spell-checker",
+			"mkaufman.HTMLHint"
+		]
+	}
+}

@@ -6,12 +6,14 @@
   "license": "MIT",
   "author": "Pat von Student",
   "scripts": {
-    "start": "browser-sync start --server src --files src  --port 8080"
-  },
+    "lint": "eslint js/**",
+    "lint:fix" : "eslint js/** --fix",
+    "lint:html": "htmlhint"
+    },
   "devDependencies": {
-    "browser-sync": "^2.27.10",
     "eslint": "^8.16.0",
     "eslint-config-google": "^0.14.0",
+    "htmlhint": "^1.1.4",
     "qunit": "^2.19.1"
   }
 }

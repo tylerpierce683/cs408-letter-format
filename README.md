@@ -71,11 +71,11 @@ the built in debugger for VSCode! Generally speaking it doesn't make much sense 
 through your HTML or CSS code, but any Javascript code can be debugged just like any other
 programming language. 
 
-- Step 1: Run your development server with `npm start`
+- Step 1: Run your development server with `Live Preview: Start Server`
 - Step 2: Open the file **js/main.js**
 - Step 3: Open the built-in [debugger](https://code.visualstudio.com/docs/editor/debugging)
-- Step 4: Click on the debug icon in VSCode and then click the big green arrow that says "Launch
-  Chrome against localhost" to start a debugging session. 
+- Step 4: Click on the debug icon in VSCode and then click the big green arrow that says "Debug
+  Website" to start a debugging session. 
 - Step 5: Modify the loaded function as shown below.
 - Step 6: Set a breakpoint on the variable foo and refresh.
 - Step 7: Step through the code to see the changes
@@ -98,12 +98,31 @@ and browser.
 
 ## Task 3 - Linting
 
+Linting as defined on [wikipedia](https://en.wikipedia.org/wiki/Lint_%28software%29) is the process
+of static code analysis to help find programming errors, bugs, stylistic errors, and suspicious
+constructs. We will be linting all of our Javascript, HTML, and CSS code in this class.
+
+### Javascript
+
 Javascript is a interpreted language. This means we don't have to compile it like Java or C#, we
 write it and then just run it directly. This means that any errors that we have will be found at
 runtime. Even though we don't have a compiler to help us there are still tools available to help
 us write better code. In this class we will be using [eslint](https://eslint.org/). You will be
 required to fix **ALL** eslint errors in any code that you submit. Some errors are just style errors
 while others will cause issues at runtime.
+
+### HTML
+
+Modern browsers are incredibly robust and are able to correct display even the most broken and wrong
+html. A browser may be able to render your webpage but that does not mean that you wrote correct
+code. In this course we will use [htmlhint](https://htmlhint.com/) to make sure our html is as
+correct as possible.
+
+### CSS
+
+VSCode already has built in
+[support](https://code.visualstudio.com/docs/languages/css#_syntax-verification-linting) for css
+that is good enough for our purposes so no other tools will be needed.
 
 ## Task 4 - Documentation
 
