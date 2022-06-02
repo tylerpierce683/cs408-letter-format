@@ -2,10 +2,12 @@
 
 ## Overview
 
-In this lesson we are going to review the project layout that we will be using for the first half of
-the semester. This project is all setup to make it easy to write and debug HTML, CSS, and
-Javascript. In this lab your only objective is to go through each task and make sure your system
-is all setup to start doing web development!
+In this lesson we are going to review the project layout that we will be using for the first half of the semester. This
+project is all setup to make it easy to write and debug HTML, CSS, and Javascript. In this lab your only objective is to go
+through each task and make sure your system is all setup to start doing web development!
+
+In order for everything to work correctly you will need to open up this project as a workspace. Under the file menu select
+**Open Workspace from File ...** and select the **lesson.code-workspace** to make sure everything loads correctly!
 
 ## Videos
 
@@ -16,11 +18,10 @@ is all setup to start doing web development!
 
 ## Task 0 - Install dev tools
 
-For most of this class we will be developing websites without the use of frameworks. This allows you
-to truly understand what is going on under the hood instead of just relying on code that someone
-else has written. There are a few tools that we will leverage to help us write better code. You
-will need to install these tools before you start developing. You can install these tools using the
-command line.
+For most of this class we will be developing websites without the use of frameworks. This allows you to truly understand what
+is going on under the hood instead of just relying on code that someone else has written. There are a few tools that we will
+leverage to help us write better code. You will need to install these tools before you start developing. You can install
+these tools using the command line.
 
 ```bash
 npm install
@@ -29,11 +30,10 @@ npm install
 ## Task 1 - Run the site
 
 We will used a really handy VSCode plugin to run our site. Install the [Live
-Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) built in web
-server. There are several cool features of the development server that will make your life easier
-when authoring web pages. The development server will reload your browser window when it detects
-changes! This means you can live in your editor, make changes to your HTML, CSS, or javascript files
-and those changes will automatically be reflected in the browser!
+Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) built in web server. There are several
+cool features of the development server that will make your life easier when authoring web pages. The development server will
+reload your browser window when it detects changes! This means you can live in your editor, make changes to your HTML, CSS,
+or javascript files and those changes will automatically be reflected in the browser!
 
 Let's test this out by modifying **index.html** to the following:
 
@@ -66,15 +66,13 @@ Let's test this out by modifying **index.html** to the following:
 </html>
 ```
 
-Assuming everything is working correctly you should see your webpage update without having to hit
-the refresh button 😊!
+Assuming everything is working correctly you should see your webpage update without having to hit the refresh button 😊!
 
 ## Task 2 - Debugging Javascript
 
-We are going to make a few small modifications to the starter code and then make sure we can use
-the built in debugger for VSCode! Generally speaking it doesn't make much sense to single step
-through your HTML or CSS code, but any Javascript code can be debugged just like any other
-programming language.
+We are going to make a few small modifications to the starter code and then make sure we can use the built in debugger for
+VSCode! Generally speaking it doesn't make much sense to single step through your HTML or CSS code, but any Javascript code
+can be debugged just like any other programming language.
 
 - Step 1: Run your development server with `Live Preview: Start Server`
 - Step 2: Open the file **js/main.js**
@@ -97,51 +95,46 @@ function loaded() {
 }
 ```
 
-You can also use the built in Chrome debugger to debug your in Browser Javascript. However, it is
-much easier to keep everything in VSCode instead of bouncing back and forth between your text editor
-and browser.
+You can also use the built in Chrome debugger to debug your in Browser Javascript. However, it is much easier to keep
+everything in VSCode instead of bouncing back and forth between your text editor and browser.
 
 ## Task 3 - Linting
 
-Linting as defined on [wikipedia](https://en.wikipedia.org/wiki/Lint_%28software%29) is the process
-of static code analysis to help find programming errors, bugs, stylistic errors, and suspicious
-constructs. We will be linting all of our Javascript, HTML, and CSS code in this class.
+Linting as defined on [wikipedia](https://en.wikipedia.org/wiki/Lint_%28software%29) is the process of static code analysis
+to help find programming errors, bugs, stylistic errors, and suspicious constructs. We will be linting all of our Javascript,
+HTML, and CSS code in this class.
 
 ### Javascript
 
-Javascript is a interpreted language. This means we don't have to compile it like Java or C#, we
-write it and then just run it directly. This means that any errors that we have will be found at
-runtime. Even though we don't have a compiler to help us there are still tools available to help
-us write better code. In this class we will be using [eslint](https://eslint.org/). You will be
-required to fix **ALL** eslint errors in any code that you submit. Some errors are just style errors
-while others will cause issues at runtime.
+Javascript is a interpreted language. This means we don't have to compile it like Java or C#, we write it and then just run
+it directly. This means that any errors that we have will be found at runtime. Even though we don't have a compiler to help
+us there are still tools available to help us write better code. In this class we will be using
+[eslint](https://eslint.org/). You will be required to fix **ALL** eslint errors in any code that you submit. Some errors are
+just style errors while others will cause issues at runtime.
 
 ### HTML
 
-Modern browsers are incredibly robust and are able to correct display even the most broken and wrong
-html. A browser may be able to render your webpage but that does not mean that you wrote correct
-code. In this course we will use [htmlhint](https://htmlhint.com/) to make sure our html is as
-correct as possible.
+Modern browsers are incredibly robust and are able to correct display even the most broken and wrong html. A browser may be
+able to render your webpage but that does not mean that you wrote correct code. In this course we will use
+[htmlhint](https://htmlhint.com/) to make sure our html is as correct as possible.
 
 ### CSS
 
-VSCode already has built in
-[support](https://code.visualstudio.com/docs/languages/css#_syntax-verification-linting) for css
+VSCode already has built in [support](https://code.visualstudio.com/docs/languages/css#_syntax-verification-linting) for css
 that is good enough for our purposes so no other tools will be needed.
 
 ## Task 4 - Documentation
 
-We will be using [JSDoc](https://jsdoc.app/) for all of our JavaScript code in this class. You are
-required to document all your code just like you were in CS121 and CS221. For the code that we write
-in this class JSDoc is almost identical to JavaDoc. Read the short [getting started
-guide](https://jsdoc.app/about-getting-started.html) for all the details in using JSDoc.
+We will be using [JSDoc](https://jsdoc.app/) for all of our JavaScript code in this class. You are required to document all
+your code just like you were in CS121 and CS221. For the code that we write in this class JSDoc is almost identical to
+JavaDoc. Read the short [getting started guide](https://jsdoc.app/about-getting-started.html) for all the details in using
+JSDoc.
 
 ## Task 5 - Running Grading Scripts
 
 For each lab you will be given a set of grading scripts that you should run. These scripts are
-[QUnit](https://qunitjs.com/intro/#in-the-browser) tests that are run in the browser. All you have
-to do is uncomment them and they will run automatically! You can debug your unit tests just like
-any other Javascript program as shown in Task 2.
+[QUnit](https://qunitjs.com/intro/#in-the-browser) tests that are run in the browser. All you have to do is uncomment them
+and they will run automatically! You can debug your unit tests just like any other Javascript program as shown in Task 2.
 
 ```html
 <!doctype html>
@@ -173,10 +166,8 @@ any other Javascript program as shown in Task 2.
 
 ## Task 6 - Complete the Retrospective
 
-Once you have completed all the tasks open the file **Retrospective.md** and complete each section
-with a TODO comment.
+Once you have completed all the tasks open the file **Retrospective.md** and complete each section with a TODO comment.
 
 ## Task 7 - Add, Commit, Push your code
 
-Once you are finished you need to make sure that you have pushed all your code to GitHub for
-grading!
+Once you are finished you need to make sure that you have pushed all your code to GitHub for grading!
