@@ -14,21 +14,26 @@ is all setup to start doing web development!
 - [Class Coding standards](https://shanep-web.github.io/docs/coding-standards.html)
 - [Cloning and Submitting](https://shanep-web.github.io/docs/github.html)
 
+## Task 0 - Install dev tools
+
+For most of this class we will be developing websites without the use of frameworks. This allows you
+to truly understand what is going on under the hood instead of just relying on code that someone
+else has written. There are a few tools that we will leverage to help us write better code. You
+will need to install these tools before you start developing. You can install these tools using the
+command line.
+
+```bash
+npm install
+```
 
 ## Task 1 - Run the site
 
-In order to run the website using the built in development server use the following steps:
-
-```bash
-$ npm install
-$ npm start
-```
-
-Assuming the two commands above completed successfully you should see the starter webpage open up
-in a browser. There are several cool features of the development server that will make your life
-easier when authoring web pages. The development server will reload your browser window when it
-detects changes! This means you can live in your editor, make changes to your HTML, CSS, or 
-javascript files and those changes will automatically be reflected in the browser!
+We will used a really handy VSCode plugin to run our site. Install the [Live
+Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) built in web
+server. There are several cool features of the development server that will make your life easier
+when authoring web pages. The development server will reload your browser window when it detects
+changes! This means you can live in your editor, make changes to your HTML, CSS, or javascript files
+and those changes will automatically be reflected in the browser!
 
 Let's test this out by modifying **index.html** to the following:
 
@@ -69,13 +74,13 @@ the refresh button 😊!
 We are going to make a few small modifications to the starter code and then make sure we can use
 the built in debugger for VSCode! Generally speaking it doesn't make much sense to single step
 through your HTML or CSS code, but any Javascript code can be debugged just like any other
-programming language. 
+programming language.
 
 - Step 1: Run your development server with `Live Preview: Start Server`
 - Step 2: Open the file **js/main.js**
 - Step 3: Open the built-in [debugger](https://code.visualstudio.com/docs/editor/debugging)
 - Step 4: Click on the debug icon in VSCode and then click the big green arrow that says "Debug
-  Website" to start a debugging session. 
+  Website" to start a debugging session.
 - Step 5: Modify the loaded function as shown below.
 - Step 6: Set a breakpoint on the variable foo and refresh.
 - Step 7: Step through the code to see the changes
@@ -94,7 +99,7 @@ function loaded() {
 
 You can also use the built in Chrome debugger to debug your in Browser Javascript. However, it is
 much easier to keep everything in VSCode instead of bouncing back and forth between your text editor
-and browser. 
+and browser.
 
 ## Task 3 - Linting
 
@@ -169,10 +174,9 @@ any other Javascript program as shown in Task 2.
 ## Task 6 - Complete the Retrospective
 
 Once you have completed all the tasks open the file **Retrospective.md** and complete each section
-with a TODO comment. 
+with a TODO comment.
 
 ## Task 7 - Add, Commit, Push your code
 
 Once you are finished you need to make sure that you have pushed all your code to GitHub for
 grading!
-
