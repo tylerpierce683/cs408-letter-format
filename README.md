@@ -32,7 +32,7 @@ npm install
 We will used a really handy VSCode plugin to run our site. Install the [Live
 Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) built in web server. There are several
 cool features of the development server that will make your life easier when authoring web pages. The development server will
-reload your browser window when it detects changes! This means you can live in your editor, make changes to your HTML, CSS,
+reload your browser window when it detects changes! This means you can stay in your editor, make changes to your HTML, CSS,
 or javascript files and those changes will automatically be reflected in the browser!
 
 Let's test this out by modifying **index.html** to the following:
@@ -43,7 +43,7 @@ Let's test this out by modifying **index.html** to the following:
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Hello World!</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
