@@ -6,9 +6,6 @@ In this lesson we are going to review the project layout that we will be using f
 project is all setup to make it easy to write and debug HTML, CSS, and Javascript. In this lab your only objective is to go
 through each task and make sure your system is all setup to start doing web development!
 
-In order for everything to work correctly you will need to open up this project as a workspace. Under the file menu select
-**Open Workspace from File ...** and select the **lesson.code-workspace** to make sure everything loads correctly!
-
 ## Videos
 
 - [Lab Overview]()
@@ -118,6 +115,11 @@ Modern browsers are incredibly robust and are able to correct display even the m
 able to render your webpage but that does not mean that you wrote correct code. In this course we will use
 [htmlhint](https://htmlhint.com/) to make sure our html is as correct as possible.
 
+**Important** - Just because your webpage renders correctly does not mean your HTML/CSS/Javascript is actually correct.
+This is an unfortunate side effect of the long history of browsers "fixing" poorly formatted pages to just display something.
+If your code or markup is wrong you will eventually be bitten by a browser update or some other browser/OS combination that
+"fixes" your bad code in a way that was not intended.
+
 ### CSS
 
 VSCode already has built in [support](https://code.visualstudio.com/docs/languages/css#_syntax-verification-linting) for css
@@ -132,9 +134,10 @@ JSDoc.
 
 ## Task 5 - Running Grading Scripts
 
-For each lab you will be given a set of grading scripts that you should run. These scripts are
-[QUnit](https://qunitjs.com/intro/#in-the-browser) tests that are run in the browser. All you have to do is uncomment them
-and they will run automatically! You can debug your unit tests just like any other Javascript program as shown in Task 2.
+For each lab you will be given a set of grading scripts that you should run. These scripts are written in
+[QUnit](https://qunitjs.com/intro/#in-the-browser) and must be run in the browser context. All you have to do is uncomment
+them and they will run automatically! You can debug your unit tests just like any other Javascript program as shown in Task
+2.
 
 ```html
 <!doctype html>
