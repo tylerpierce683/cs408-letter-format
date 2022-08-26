@@ -3,8 +3,8 @@
 ## Overview
 
 In this lesson we are going to review the project layout that we will be using for the first half of the semester. This
-project is all setup to make it easy to write and debug HTML, CSS, and Javascript. In this lab your only objective is to go
-through each task and make sure your system is all setup to start doing web development!
+project is all set up to make it easy to write and debug HTML, CSS, and Javascript. In this lab your only objective is to go
+through each task and make sure your system is all set up to start doing web development!
 
 ## Videos
 
