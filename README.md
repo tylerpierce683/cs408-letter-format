@@ -103,7 +103,7 @@ HTML, and CSS code in this class.
 
 ### Javascript
 
-Javascript is a interpreted language. This means we don't have to compile it like Java or C#, we write it and then just run
+Javascript is an interpreted language. This means we don't have to compile it like Java or C#, we write it and then just run
 it directly. This means that any errors that we have will be found at runtime. Even though we don't have a compiler to help
 us there are still tools available to help us write better code. In this class we will be using
 [eslint](https://eslint.org/). You will be required to fix **ALL** eslint errors in any code that you submit. Some errors are
@@ -111,7 +111,7 @@ just style errors while others will cause issues at runtime.
 
 ### HTML
 
-Modern browsers are incredibly robust and are able to correct display even the most broken and wrong html. A browser may be
+Modern browsers are incredibly robust and are able to correctly display even the most broken and wrong html. A browser may be
 able to render your webpage but that does not mean that you wrote correct code. In this course we will use
 [htmlhint](https://htmlhint.com/) to make sure our html is as correct as possible.
 
