@@ -26,7 +26,7 @@ npm install
 
 ## Task 1 - Run the site
 
-We will used a really handy VSCode plugin to run our site. Install the [Live
+We will use a really handy VSCode plugin to run our site. Install the [Live
 Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) built in web server. There are several
 cool features of the development server that will make your life easier when authoring web pages. The development server will
 reload your browser window when it detects changes! This means you can stay in your editor, make changes to your HTML, CSS,
