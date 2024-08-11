@@ -8,7 +8,6 @@
 		"ms-vscode.live-server",
 		"streetsidesoftware.code-spell-checker",
 		"htmlhint.vscode-htmlhint",
-		"eg2.vscode-npm-script",
 		"christian-kohler.npm-intellisense"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
